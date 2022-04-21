@@ -1,3 +1,4 @@
+import ConceptCard from "./ConceptCard"
 
 let concepts = [
     {
@@ -39,8 +40,8 @@ console.log(concepts)
 
 export default function ConceptList() {
     return (
-        concepts.map((con) => (
-            null
+        concepts.map((concept) => (
+            <ConceptCard title={concept.title} desc={concepts.desc} />
         ))
     )
 }
