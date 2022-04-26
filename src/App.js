@@ -1,5 +1,7 @@
 
 import './App.css';
+import Comparison from './Components/Comparison';
+
 import ConceptList from './Components/ConceptList';
 import Header from './Components/Header';
 
@@ -8,6 +10,7 @@ function App() {
     <section className="main">
       <Header />
       <ConceptList />
+      <Comparison />
     </section>
   );
 }
