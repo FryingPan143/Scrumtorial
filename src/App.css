@@ -1,0 +1,67 @@
+.main{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+}
+
+.app-header h1{
+    font-size: 50px;
+}
+
+.app-header{
+    text-align: center;
+}
+
+.main-body{
+    width:50vw;
+    display: grid;
+    justify-content: center;
+}
+
+.concept-list{
+    display: grid;
+    justify-content: center;
+}
+
+.concept-box{
+    width:40vw;
+    border:2px solid black;
+    margin:15px;
+    border-radius: 15px;
+}
+
+.concept-box *{
+    padding: 5px;
+   
+}
+
+.cb-header{
+    border-radius: 15px 15px 0px 0px;
+    background-color: lime;
+    text-align: center;
+    color:black;
+}
+
+.cb-body{
+    
+    border-radius: 0px 0px 15px 15px;
+}
+
+.comparison{
+    width:40vw;
+    border:2px solid black;
+    margin:15px;
+    border-radius: 15px;
+}
+
+.c-header{
+    border-radius: 15px 15px 0px 0px;
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+}
+
+.c-body{
+    padding: 10px;
+}
+

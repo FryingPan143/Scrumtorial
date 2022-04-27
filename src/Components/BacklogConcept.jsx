@@ -14,12 +14,3 @@ export default function BacklogConcept() {
     )
 }
 
-
-{/* <article className="concept-box">
-<section className="cb-header">
-<h3></h3>
-</section>
-<section className="cb-body">
-<p></p>
-</section>
-</article> */}
